@@ -195,7 +195,7 @@ if __name__ == '__main__':
                 product = input("Название товара? ")
                 price = float(input("Стоимость товара в руб.? "))
 
-                # Добавить работника.
+                # Добавить.
                 staff.add(shop, product, price)
                 logging.info(
                     f"Добавлен товар: {product}, {shop}, "
